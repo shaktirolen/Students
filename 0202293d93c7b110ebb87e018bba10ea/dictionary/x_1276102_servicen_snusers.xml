@@ -9,7 +9,7 @@
                 <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
             </choice>
         </element>
-        <element label="Email Id" max_length="40" name="email_id" type="string"/>
+        <element label="Email " max_length="40" name="email_id" type="Email"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
